@@ -20,7 +20,7 @@
   <parent>
     <groupId>org.99soft.trudeau</groupId>
     <artifactId>trudeau-parent</artifactId>
-    <version>1-SNAPSHOT</version>
+    <version>1</version>
   </parent>
 
   <artifactId>org.99soft.trudeau.utils</artifactId>
@@ -28,7 +28,7 @@
 
   <name>Trudeau - Utilities</name>
   <description>Small shared utilities set.</description>
-  <url>https://github.com/trudeau/utils</url>
+  <url>http://trudeau.github.io/utils</url>
 
   <scm>
     <url>http://github.com/trudeau/utils</url>
@@ -43,5 +43,11 @@
     <system>Trevis CI</system>
     <url>https://travis-ci.org/trudeau/utils/</url>
   </ciManagement>
+  <distributionManagement>
+    <site>
+      <id>github</id>
+      <url>gitsite:git@github.com/trudeau/utils.git</url>
+    </site>
+  </distributionManagement>
 
 </project>
