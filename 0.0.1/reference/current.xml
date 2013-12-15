@@ -1,0 +1,106 @@
+<api>
+<package name="org.nnsoft.trudeau.utils"
+>
+<class name="Assertions"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="checkArgument"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="expression" type="boolean">
+</parameter>
+<parameter name="errorMessageTemplate" type="java.lang.String">
+</parameter>
+<parameter name="errorMessageArgs" type="java.lang.Object...">
+</parameter>
+</method>
+<method name="checkNotNull"
+ return="T"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="reference" type="T">
+</parameter>
+<parameter name="errorMessageTemplate" type="java.lang.String">
+</parameter>
+<parameter name="errorMessageArgs" type="java.lang.Object...">
+</parameter>
+</method>
+<method name="checkState"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="expression" type="boolean">
+</parameter>
+<parameter name="errorMessageTemplate" type="java.lang.String">
+</parameter>
+<parameter name="errorMessageArgs" type="java.lang.Object...">
+</parameter>
+</method>
+</class>
+<class name="Objects"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="eq"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="o1" type="O">
+</parameter>
+<parameter name="o2" type="O">
+</parameter>
+</method>
+<method name="hash"
+ return="int"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="initialNonZeroOddNumber" type="int">
+</parameter>
+<parameter name="multiplierNonZeroOddNumber" type="int">
+</parameter>
+<parameter name="objs" type="java.lang.Object...">
+</parameter>
+</method>
+</class>
+</package>
+</api>
