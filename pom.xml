@@ -24,7 +24,7 @@
   </parent>
 
   <artifactId>org.99soft.trudeau.utils</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2-SNAPSHOT</version>
 
   <name>Trudeau - Utilities</name>
   <description>Small shared utilities set.</description>
@@ -34,7 +34,7 @@
     <url>http://github.com/trudeau/utils</url>
     <connection>scm:git:ssh://github.com/trudeau/utils.git</connection>
     <developerConnection>scm:git:git+ssh://git@github.com/trudeau/utils.git</developerConnection>
-    <tag>org.99soft.trudeau.utils-0.0.1</tag>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>GitHub Issue Management</system>
