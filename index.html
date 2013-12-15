@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Utils by trudeau</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Utils</h1>
+        <p>Small shared utilities set</p>
+
+        <p class="view"><a href="https://github.com/trudeau/utils">View the Project on GitHub <small>trudeau/utils</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/trudeau/utils/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/trudeau/utils/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/trudeau/utils">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="utils" class="anchor" href="#utils"><span class="octicon octicon-link"></span></a>utils</h1>
+
+<p>Small shared utilities set</p>
+
+<h1>
+<a name="apis" class="anchor" href="#apis"><span class="octicon octicon-link"></span></a>APIs</h1>
+
+<p><a href="http://trudeau.github.io/utils/0.0.1/">0.0.1</a></p>
+
+<h1>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h1>
+
+<p>The <code>org.nnsoft.trudeau.utils.Assertions</code> makes more compact methods arguments validation, such as:</p>
+
+<ul>
+<li><p><code>void checkArgument( boolean expression, String errorMessageTemplate, Object... errorMessageArgs )</code></p></li>
+<li><p><code>void checkState( boolean expression, String errorMessageTemplate, Object... errorMessageArgs )</code></p></li>
+<li><p><code>&lt;T&gt; T checkNotNull( T reference, String errorMessageTemplate, Object... errorMessageArgs )</code></p></li>
+</ul><p>The <code>org.nnsoft.trudeau.utils.Objects</code> simplifies the construction of <code>boolean equals(Object o)</code> and <code>int hashCode()</code> methods:</p>
+
+<ul>
+<li><p><code>&lt;O&gt; boolean eq( O o1, O o2 )</code></p></li>
+<li><p><code>int hash( int initialNonZeroOddNumber, int multiplierNonZeroOddNumber, Object...objs )</code></p></li>
+</ul><h2>
+<a name="note" class="anchor" href="#note"><span class="octicon octicon-link"></span></a>Note</h2>
+
+<p>Yes, we know, there are dozens of libraries across the web that do exactly the same thing, but we just need a subset of 2 classes… does it make sense to import a dependency for few methods? :)</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/trudeau">trudeau</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
