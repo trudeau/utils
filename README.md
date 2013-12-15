@@ -3,6 +3,10 @@ utils
 
 Small shared utilities set
 
+# APIs
+
+[0.0.1](http://trudeau.github.io/utils/0.0.1/)
+
 # Usage
 
 The `org.nnsoft.trudeau.utils.Assertions` makes more compact methods arguments validation, such as:
